@@ -125,6 +125,7 @@ group by loc_from, loc_to
 
 select * from NammaYatri..assembly
 
+ -- Simple Analysis
 
 select faremethod, sum(fare) total_sum from NammaYatri..trips
 group by faremethod
